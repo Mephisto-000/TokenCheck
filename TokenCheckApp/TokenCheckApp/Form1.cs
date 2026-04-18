@@ -19,7 +19,11 @@ public partial class Form1 : Form
         [
             "gemini-2.5-pro",
             "gemini-2.5-flash",
-            "gemini-2.0-flash"
+            "gemini-2.0-flash",
+            "gemini-2.0-flash-lite",
+            "gemini-1.5-pro",
+            "gemini-1.5-flash",
+            "gemini-1.5-flash-8b"
         ]);
 
         modelComboBox.SelectedIndex = 0;

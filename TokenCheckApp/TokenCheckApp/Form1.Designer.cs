@@ -127,11 +127,12 @@
             // 
             modelComboBox.Dock = DockStyle.Left;
             modelComboBox.DropDownStyle = ComboBoxStyle.DropDownList;
+            modelComboBox.DropDownWidth = 450;
             modelComboBox.FormattingEnabled = true;
             modelComboBox.Location = new Point(135, 41);
             modelComboBox.Margin = new Padding(3, 4, 3, 4);
             modelComboBox.Name = "modelComboBox";
-            modelComboBox.Size = new Size(286, 31);
+            modelComboBox.Size = new Size(450, 31);
             modelComboBox.TabIndex = 3;
             // 
             // buttonPanel
